@@ -12,7 +12,7 @@ class CppHttpLibConan(ConanFile):
     license = "MIT"
     no_copy_source = True
     build_policy = "always"
-    requires = "OpenSSL/1.1.1b@zinnion/stable", "zlib/1.2.11@zinnion/stable"
+    requires = "OpenSSL/1.1.1d@zinnion/stable", "zlib/1.2.11@zinnion/stable"
 
     def source(self):
         source_url = "https://github.com/maurodelazeri/cpp-httplib"
